@@ -209,8 +209,8 @@ def makemore_2003(block_size, num_of_names, input_file, output_file):
 
 
     # Step 5: Visualize the result
-    visualize(C, itos)
-    print ("Иде гас!")
+    # Можете покренути ово ако су димензије ембединга 2, за више нема смисла
+    # visualize(C, itos)
 
     # Step 6:  Generate words
     generate_names(block_size, C, W1, b1, W2, b2, itos, num_of_names, output_file)
